@@ -1,0 +1,32 @@
+#! /bin/sh
+
+# {"download": 6505533.576177654,
+#  "upload": 1543542.4042512367,
+#  "ping": 21.961,
+#  "server": {"url": "http://www.unwiredltd.com:8080/speedtest/upload.php",
+# 	    "lat": "37.7749",
+# 	    "lon": "-122.4194",
+# 	    "name": "San Francisco, CA",
+# 	    "country": "United States",
+# 	    "cc": "US",
+# 	    "sponsor": "Unwired",
+# 	    "id": "603",
+# 	    "host": "www.unwiredltd.com:8080",
+# 	    "d": 15.757528205527066,
+# 	    "latency": 21.961},
+#  "timestamp": "2020-07-22T23:39:43.378976Z",
+#  "bytes_sent": 2023424,
+#  "bytes_received": 8246608,
+#  "share": null,
+#  "client": {"ip": "208.80.117.58",
+# 	    "lat": "37.7906",
+# 	    "lon": "-122.2412",
+# 	    "isp": "Unwired",
+# 	    "isprating": "3.7",
+# 	    "rating": "0",
+# 	    "ispdlavg": "0",
+# 	    "ispulavg": "0",
+# 	    "loggedin": "0",
+# 	    "country": "US"}}
+
+speedtest --json
